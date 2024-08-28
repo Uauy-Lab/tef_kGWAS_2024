@@ -26,6 +26,7 @@ Output is an n x n matrix, where n is the number of accessions in your populatio
 - A single-column text file listing all accessions, one per line
 
 **Steps:**
+
 Script 01) This script splits the input k-mer matrix into the specified number of parts. It splits whole lines only so will not generate aberrant entries.
 
 Script 02a) An example BASH script to submit many instances of the R script "02b_calc_shared_kmer_states_per_matrix_part.r". Designed to run on the "slurm" job allocation system used by the Norwich Bioscience Institutes computing cluster.
@@ -46,6 +47,7 @@ Output is an n x 2 matrix, where n is the number of accessions in your populatio
 - A single-column text file listing all accessions, one per line
 
 **Steps:**
+
 Script 01) This script takes the k-mer matrix as input counts the number of "presences" (1's) for each accession
 
 ## Identifying potential SNP-panel discrepancies between accession pools and their constituent members
