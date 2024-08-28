@@ -11,7 +11,7 @@ library(tidyverse)
 ### These matrix parts should be the *only* files in this directory for this script to work correctly
 parts_dir <- "/path/to/matrix/parts/dir"
 
-### Set the path and name of a single-column TSV file listing the accessions
+### Set the path and name of a single-column text file listing the accessions
 ### Length must be the same as the number of columns and number of rows of the input matrices
 accessions_file <- "/path/to/accessions/file.txt"
 
