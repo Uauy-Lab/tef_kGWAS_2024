@@ -13,7 +13,7 @@ matrix="name_of_kmer_matrix.txt"
 ### Set desired output directory
 out_dir="path/to/output/directory"
 
-### Set the path and name of a single-column TSV file listing the accessions
+### Set the path and name of a single-column text file listing the accessions
 accessions_file="path/to/accessions.txt"
 
 
