@@ -51,7 +51,19 @@ Output is an n x 2 matrix, where n is the number of accessions in your populatio
 Script 01) This script takes the k-mer matrix as input counts the number of "presences" (1's) for each accession
 
 ## Identifying potential SNP-panel discrepancies between accession pools and their constituent members
+We generated a minimal SNP set that uniquely identifies the accessions and accession pools in our study. These two scripts were used check whether the constituent accessions grouped into the pools always had the same alleles for these SNPs as the pools themselves.
 
 **Requirements:**
-**Input files:**
+- A UNIX shell such as BASH
+- R with Tidyverse
 
+**Input files:**
+- A "minimal markers" text file generated from the VCF file for the pooled accessions according to XXX et al. (the version without the header of accessions names). This VCF should be quality-filtered and linkage-pruned.
+- A VCF file for the unpooled accessions. This should not be quality-filtered or linkage-pruned to ensure the SNPs selected by the minimal markers pipeline are not removed. The third column should contain "variant names" and these must be of the same format as in the VCF for the pooled accessions (e.g. chromsome_coordinate; 4B:45006711)
+- A file describing the accession pools / redundancy groups
+
+**Steps:**
+
+Script01) This script extracts the variant names of the SNPs selected by the minimal markers pipeline, then pulls the entries for these SNPs from the VCF for the unpooled accessions. The output is a very short VCF with only the selected SNPs.
+
+Script02) This script loads the short VCF of target SNPs into R, along with a metadata file describing the accession pools (redundancy groups). The inputs are then formatted to allow easy visual examination of the alleles called for each of the pool constituents. This should be compared vs the original minimal markers output to see if the constituents agree with their pool. Other statistics are also calculated, such as number of markers per chromosome.
