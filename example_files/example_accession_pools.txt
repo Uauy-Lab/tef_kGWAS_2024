@@ -1,0 +1,20 @@
+group_ 1	group_ 2	group_ 3	group_ 4	group_ 5	group_ 6	group_ 7	group_ 8	group_ 9	group_ 10	group_ 11	group_ 12	group_ 13	group_ 14	group_ 15	group_ 16	group_ 17	group_ 18	group_ 19	group_ 20	group_ 21	group_ 22	group_ 23	group_ 24	group_ 25	group_ 26	group_ 27	group_ 28	group_ 29	group_ 30	group_ 31	group_ 32
+accession_1	accession_6	accession_9	accession_14	accession_16	accession_19	accession_25	accession_26	accession_28	accession_32	accession_34	accession_36	accession_42	accession_46	accession_51	accession_56	accession_65	accession_69	accession_71	accession_75	accession_82	accession_83	accession_85	accession_93	accession_106	accession_115	accession_120	accession_129	accession_138	accession_151	accession_156	accession_191
+accession_2	accession_17	accession_11	accession_15	accession_44	accession_61	accession_145	accession_29	accession_121	accession_189	accession_210	accession_173	accession_63	accession_47	accession_196	accession_169	accession_180	accession_101	accession_218	accession_175	accession_105	accession_125	accession_86	accession_110	accession_132	accession_116	accession_136	accession_150	accession_212	accession_174	accession_157	accession_192
+accession_13		accession_12		accession_97			accession_30				accession_188	accession_77	accession_94	accession_197		accession_184	accession_149			accession_108		accession_87									
+accession_62				accession_178			accession_55					accession_134		accession_215								accession_96									
+accession_64							accession_143															accession_119									
+accession_80																						accession_162									
+accession_114																						accession_166									
+accession_124																						accession_167									
+accession_126																															
+accession_127																															
+accession_137																															
+accession_144																															
+accession_146																															
+accession_153																															
+accession_154																															
+accession_172																															
+accession_179																															
+accession_211																															
+accession_216																															
