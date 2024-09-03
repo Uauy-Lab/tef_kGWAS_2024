@@ -10,7 +10,7 @@ Three functionalities are provided:
 Notes:
 - "Accession" can be replaced by your desired genotypic unit, e.g. individual, sub-species, species, genera
 - "Population" is used here to mean the complete set of accessions (or equivalent) studied in your project
-- Example files are provided in the "example_files" folder
+- Example input files are provided in the "example_files" folder
 - Full references for citations are provided at the end of this document
 
 ## Calculating pairwise shared k-mer state rates
