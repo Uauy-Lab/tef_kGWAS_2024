@@ -1,6 +1,6 @@
 # Code for tef kmer GWAS project
 
-This repository contains the code used for analyses in the paper "" that were not performed using standard or already-published bioinformatics tools.
+This repository contains the code used for analyses in the paper Jones *et al.*, 2024 "Population genomics for trait improvement in the underutilised crop tef" that were not performed using standard or already-published bioinformatics tools.
 
 Three functionalities are provided:
 - Calculating pairwise shared k-mer state rates
@@ -48,7 +48,7 @@ The output is an n x 2 matrix, where n is the number of accessions in your popul
 
 **Steps:**
 
-Script 01) This script takes the k-mer matrix as input counts the number of "presences" (1's) for each accession
+Script 01) This script takes the k-mer matrix as input and counts the number of "presences" (1's) for each accession
 
 ## Identifying potential SNP-panel discrepancies between accession pools and their constituent members
 We generated a minimal SNP set that uniquely identifies the accessions and accession pools in our study. These two scripts were used check whether the constituent accessions grouped into the pools always had the same alleles for these SNPs as the pools themselves.
